@@ -56,7 +56,7 @@ if __name__ == '__main__':
                 else:
                     print('_', end=' ')
 
-        if chances <= 0 and (Counter(letterGuessed) != Counter(word)):  # Corrected '& lt<=' to '<='
+        if chances <= 0 and (Counter(letterGuessed) != Counter(word)):
             print() 
             print('You lost! Try again..') 
             print('The word was {}'.format(word)) 
