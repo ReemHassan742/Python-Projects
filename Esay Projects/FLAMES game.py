@@ -42,7 +42,6 @@ if __name__ == "__main__":
     result = ["Friends", "Love", "Affection", "Marriage", "Enemy", "Siblings"]
     
     while len(result) > 1:
-        
         split_index = (count % len(result) - 1)    
         
         if split_index >= 0:
