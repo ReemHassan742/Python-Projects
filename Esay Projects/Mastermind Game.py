@@ -21,7 +21,6 @@ else :
             else :
                 continue
             
-        
         if (count < 4) and (count != 0) :
             
             print("Not quite the number. But you did get ",count, " digit(s) correct!")    
